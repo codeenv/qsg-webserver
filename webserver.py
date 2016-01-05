@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-        return "Hello From CodeEnv!"
+    return "Hello From CodeEnv!"
 
-    if __name__ == "__main__":
-            app.run()
+if __name__ == "__main__":
+    app.run()
